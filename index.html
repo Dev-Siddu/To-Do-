@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title >ToDo Web App</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <div id="main">
+        <div id="left">
+            <div id="todo" class="option" onclick="right()">ToDo</div>
+            <div id="comp" class="option" onclick="complete()">Completed</div>
+        </div>
+
+        <div id="right" class="right" style="display: none;">
+            <h3>Add your ToDo Works <button onclick="add()" id="add">Add</button> </h3>
+            <div id="todolists">
+            </div>
+        </div>
+        
+        <div id="right_comp" class="right" style="display: none;">
+            <h3>Completed Works </h3>
+            <div id="Completedlists">
+            </div>
+        </div>
+    </div>
+    
+    <script src="todo.js">
+        
+    </script>
+</body>
+</html>
